@@ -12,8 +12,13 @@ To handle the extreme class imbalance (~0.98% positive prevalence), the pipeline
 3. Class imbalance handling via **SMOTE** on training data.
 
 ## 📁 Repository Structure
-- `IFLS5_HeartAttack_Classification_Pipeline.ipynb` : The primary Jupyter Notebook containing data loading, preprocessing, model training, cross-validation, and holdout evaluation.
+- `IFLS5_HeartAttack_Classification_Pipeline.ipynb` : The primary Jupyter Notebook containing data loading, preprocessing, feature merging, model training, cross-validation, and holdout evaluation.
 - `README.md` : Project documentation and guidelines.
+
+## 📊 Dataset & Data Source
+The raw data originates from the **Fifth Wave of the Indonesia Family Life Survey (IFLS-5)** conducted by the RAND Corporation. 
+- The dataset used in the code was created by merging relevant IFLS-5 survey modules (e.g., adult health history, anthropometric measurements, and demographic characteristics).
+- Raw IFLS-5 data files can be officially requested and downloaded from the RAND Corporation repository: https://www.rand.org/well-being/social-and-behavioral-policy/data/FLS/IFLS.html
 
 ## 🛠️ Requirements & Installation
 To run the notebook, install the required packages:
@@ -28,6 +33,6 @@ pip install numpy pandas scikit-learn imbalanced-learn xgboost
 
 3. Open `IFLS5_HeartAttack_Classification_Pipeline.ipynb` using Google Colab or Jupyter Notebook/Lab.
 
-4. Ensure the dataset `ifls5_heart_attack_dataset.csv` is uploaded to the working directory.
+4. Place your merged CSV dataset file (or run the data merging cells within the notebook using the raw IFLS-5 files) into the root working directory.
 
 5. Execute all cells sequentially from top to bottom.
