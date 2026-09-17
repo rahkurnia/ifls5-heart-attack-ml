@@ -21,7 +21,7 @@ pip install numpy pandas scikit-learn imbalanced-learn xgboost
 
 ## 🚀 How to Run
 1. Clone or download this repository:
-   git clone https://github.com/USERNAME_KAMU/ifls5-heart-attack-ml.git
+   git clone https://github.com/rahkurnia/ifls5-heart-attack-ml.git
 
 2. Navigate to the project directory:
    cd ifls5-heart-attack-ml
