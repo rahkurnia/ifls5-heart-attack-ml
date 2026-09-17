@@ -17,5 +17,17 @@ To handle the extreme class imbalance (~0.98% positive prevalence), the pipeline
 
 ## 🛠️ Requirements & Installation
 To run the notebook, install the required packages:
-```bash
 pip install numpy pandas scikit-learn imbalanced-learn xgboost
+
+## 🚀 How to Run
+1. Clone or download this repository:
+   git clone https://github.com/USERNAME_KAMU/ifls5-heart-attack-ml.git
+
+2. Navigate to the project directory:
+   cd ifls5-heart-attack-ml
+
+3. Open `IFLS5_HeartAttack_Classification_Pipeline.ipynb` using Google Colab or Jupyter Notebook/Lab.
+
+4. Ensure the dataset `ifls5_heart_attack_dataset.csv` is uploaded to the working directory.
+
+5. Execute all cells sequentially from top to bottom.
